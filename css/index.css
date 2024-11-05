@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    font-family: 'Sans Serif', sans-serif; /* Fonte padrão */
+    font-family: 'Sans Serif', sans-serif; 
 }
 
 main {
@@ -18,7 +18,7 @@ main {
     width: 100%;
 }
 
-/* Centralizando o conteúdo dentro de .content */
+
 .content {
     width: 50%;
     height: 400px;
@@ -46,13 +46,13 @@ main {
     background: linear-gradient(0deg, rgb(14, 130, 179) 0%, rgba(28, 212, 255, 1) 100%);
     color: #fff;
     border-radius: 15px;
-    border: none; /* Remover borda */
+    border: none; 
     text-align: center;
-    text-decoration: none; /* Remover sublinhado do link */
-    display: flex; /* Para centralizar o texto */
+    text-decoration: none; 
+    display: flex; 
     align-items: center; 
-    justify-content: center; /* Para centralizar o texto */
-    transition: background-color 0.3s, color 0.3s; /* Adiciona transições */
+    justify-content: center; 
+    transition: background-color 0.3s, color 0.3s; 
 }
 
 .content .button:hover {
@@ -60,7 +60,7 @@ main {
     color: rgb(6, 65, 97);
 }
 
-/* Barra lateral com bordas arredondadas */
+
 .sidebar {
     position: fixed;
     top: 0;
@@ -73,7 +73,7 @@ main {
     align-items: center;
     padding-top: 20px;
     color: white;
-    border-radius: 15px; /* Bordas arredondadas na sidebar */
+    border-radius: 15px; 
 }
 
 .sidebar .logo {
@@ -89,19 +89,19 @@ main {
 
 .sidebar ul li {
     width: 100%;
-    margin: 25px 0; /* Reduz espaço entre os botões */
+    margin: 25px 0; 
 }
 
 .sidebar ul li a {
     text-decoration: none;
     color: white;
     font-size: 18px;
-    padding: 10px 20px; /* Espaçamento interno */
+    padding: 10px 20px; 
     width: 100%;
     display: block;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 30px; /* Bordas arredondadas nos botões */
+    border-radius: 30px; 
     transition: background 0.3s, color 0.3s;
 }
 
