@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Projeto GLPI</title>
+    <link rel="stylesheet" href="./css/login.css" />
+    <link rel="shortcut icon" href="./img/glpi-logo.webp" type="image/x-icon" />
+</head>
+<body>
+    <main>
+        <!-- Conteúdo principal -->
+        <section class="content">
+            <header>
+                <img src="./img/glpi-logo.webp" alt="Logo GLPI" class="logo" />
+            </header>
+            <h1>Login</h1>
+            <form action="#" method="post" class="login-form">
+                <div class="input-group">
+                    <label for="username">Usuário</label>
+                    <input type="text" id="username" name="username" required placeholder="Digite seu nome de usuário">
+                </div>
+                <div class="input-group">
+                    <label for="phone">Telefone</label>
+                    <input type="text" id="phone" name="phone" required placeholder="Digite seu telefone">
+                </div>
+                <div class="input-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+                </div>
+                <div class="input-group">
+                    <label for="cpf">CPF</label>
+                    <input type="text" id="cpf" name="cpf" required placeholder="Digite seu CPF">
+                </div>
+                <div class="input-group">
+                    <label for="address">Endereço</label>
+                    <input type="text" id="address" name="address" required placeholder="Digite seu endereço">
+                </div>
+                <div class="input-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" required placeholder="Digite sua senha">
+                </div>
+                <button type="button" onclick="location.href='./index.html'">Entrar</button>
+                <br>
+                <footer>
+                    <p>Desenvolvido Por:</p>
+                    <p>Lucas Brulezzi dos Santos  -  <a href="#">Repositório</a></p>
+                </footer>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
